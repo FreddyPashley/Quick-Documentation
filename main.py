@@ -82,7 +82,7 @@ class Documentation:
             webbrowser.open(f"http://{host}:{port}")
         if self.thread:
             from threading import Thread
-            self.thread = Thread(target=app.run, kwargs={"host":host, "port":port}, daemon=True)
+            self.thread = Thread(target=app.run, kwargs={"host":host, "port":port}, daemon=False)
             self.thread.start()
         else:
             app.run(host, port)

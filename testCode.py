@@ -13,20 +13,37 @@ def mulTwoNums(x:int, y:int) -> float:
 docs.addFunction(mulTwoNums, credit="Freddy")
 
 
-def addTwoNums(x:int, y:int) -> int:
-    """
-    # Subtitle
-    text
-    # Subtitle 2
-    1. op1
-    2. op2
-    3. op3
-    """
-    return x + y
+def anotherFunction(arg1, arg2, arg3):
+    return arg1 == arg2 == arg3
 
-docs.addFunction(addTwoNums)
+docs.addFunction(anotherFunction)
+
 
 docs.start()
 
 # Main
-print(addTwoNums(2, 3))
+print(mulTwoNums(2, 3))
+
+
+
+
+
+
+
+
+
+
+
+
+# def addTwoNums(x:int, y:int) -> int:
+#     """
+#     # Subtitle
+#     text
+#     # Subtitle 2
+#     1. op1
+#     2. op2
+#     3. op3
+#     """
+#     return x + y
+
+# docs.addFunction(addTwoNums)
